@@ -6,6 +6,22 @@
   height: 60px;
   border: 1px solid black;
 }
+.line-col {
+  height: 60px;
+}
+.line {
+  width: 100%;
+  height: 30px;
+}
+.vf-jumbotron .line {
+  border-bottom: 2px solid white;
+}
+.black-line .line {
+  border-bottom: 2px solid black;
+}
+h1 {
+  padding-top: 30px;
+}
 
 /* header */
 header {
@@ -52,14 +68,6 @@ nav > ul > li > a {
 .avatar > img {
   width: 100%;
 }
-.line-col {
-  height: 60px;
-}
-.line {
-  width: 100%;
-  height: 30px;
-  border-bottom: 3px solid white;
-}
 .jumbo-text {
   max-width: 800px;
   margin: 0 auto;
@@ -71,10 +79,37 @@ nav > ul > li > a {
 .portfolio img {
   width: 100%;
 }
-/* /portfolio */
-/* .img-avatar {
+.vf-card {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.layout {
+  text-align: center;
   width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 100, 0, 0.7);
+  display: none;
+}
+.vf-card:hover .layout {
+  display: block;
+} 
+/* .vf-card:hover .layout {
+  display: block;
 } */
+.layout i {
+  font-size: 50px;
+  color: white;
+  margin-top: 90px;
+}
+.black-line .line {
+  border-bottom: 2px solid black
+}
+/* /portfolio */
+
 .vf-container {
   width: 60%;
   margin: 0 auto;
